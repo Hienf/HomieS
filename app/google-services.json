@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "190439511892",
+    "project_id": "rollin-with-my-homies",
+    "storage_bucket": "rollin-with-my-homies.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:190439511892:android:387ebedc14b14f02f05ac1",
+        "android_client_info": {
+          "package_name": "com.example.homies"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "190439511892-en5b0f917vrmf2kqq6016d61h88m325j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDzdaYnZ-D2yJH7IKPsSiK6U7PqT5wSh3E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "190439511892-en5b0f917vrmf2kqq6016d61h88m325j.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

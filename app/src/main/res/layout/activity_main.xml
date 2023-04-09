@@ -4,8 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#DEB887"
-    tools:context=".MainActivity"
+    android:background="@drawable/layout_backround"
+    tools:context=".activity.MainActivity"
     android:orientation="vertical">
 
     <TextView
@@ -25,13 +25,16 @@
 
     <Button
         android:id="@+id/btn_sign_in"
-        android:layout_width="350dp"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="250dp"
-        android:background="@drawable/btn_tron"
-        android:text="Đăng nhập"
-        android:textSize="20sp"
         android:layout_gravity="center"
+        android:layout_marginTop="250dp"
+        android:background="@drawable/btn_background"
+        android:backgroundTint="@color/hs_color2"
+        android:minWidth="320dp"
+        android:text="Đăng nhập"
+        android:textColor="@color/hs_color1"
+        android:textSize="16sp"
         app:layout_constraintBottom_toTopOf="@+id/btn_sign_up"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -39,14 +42,17 @@
 
     <Button
         android:id="@+id/btn_sign_up"
-        android:layout_width="350dp"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="30dp"
         android:layout_gravity="center"
+        android:minWidth="320dp"
         android:layout_marginBottom="50dp"
-        android:background="@drawable/btn_tron"
+        android:background="@drawable/btn_background"
         android:text="Đăng ký"
-        android:textSize="20sp"
+        android:textColor="@color/hs_color1"
+        android:backgroundTint="@color/hs_color2"
+        android:textSize="16sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"

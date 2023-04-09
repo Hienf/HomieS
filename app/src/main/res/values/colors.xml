@@ -7,5 +7,10 @@
     <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
-    <color name="btnSignIn">#FFFFFFFF</color>
+    <color name="gray">#D8D8D8D8</color>
+    <color name="hs_color1">#faf3eb</color>
+    <color name="hs_color2">#DEB887</color>
+    <color name="hs_color3">#C88937</color>
+    <color name="hs_color4">#785221</color>
+    <color name="hs_color5">#281B0B</color>
 </resources>
